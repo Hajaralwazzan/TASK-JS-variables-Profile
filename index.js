@@ -10,12 +10,12 @@
  */
 
 // Part 1 answer 👇🏻 ...
-
-
-
-
-
-
+const fullName = "Hajar AlWazzan";
+const yearOfBirth = 1989;
+const hobby = "writing";
+const funFact = "im fraid from hight";
+const image =
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZuZuBEgK_fmMPaPfFQKyXM48ToG6witDY9w&usqp=CAU";
 /**
  * Part 2: String Interpolation
  * Create the following new variables that interpolate
@@ -24,7 +24,7 @@
  * 1. fullNameString      -> assign it to: My name is {fullName}
  * 2. yearOfBirthString   -> assign it to: I am {YOUR_AGE}, and make sure you calculate your age from your year of birth
  * 3. hobbyString         -> assign it to: My hobby is {YOUR_HOBBY}
- * 
+ *
  * Uncomment the following lines and start interpolating.
  * You can uncomment a line by removing the // at the start
  */
@@ -32,9 +32,9 @@
 // const fullNameString = `My name is ${}`;
 // const yearOfBirthString =
 // const hobbyString =
-
-
-
+const fullNameString = `My Name is ${fullName}`;
+const yearOfBirthString = `i am ${2023 - yearOfBirth} years old`;
+const hobbyString = `My Hobby is ${hobby}`;
 
 /**
  * Part 3: Re-assignment
